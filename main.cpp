@@ -59,6 +59,11 @@ class CPU{
 		char da;
 		char ech;
 		char za;
+
+		 CPU(INSTRUCTION* current_instruction){
+	 	 IP = current_instruction;
+  	}
+	
 };
 
 
@@ -67,9 +72,8 @@ int main(){
  
  	RAM ram(data.size());
 	ram.loadInstruction(data);
-	for(int i = 0; i < data.size(); ++i){
-		std::cout << "opcode -> " << ram.code_segment[i].opcode  << " operand1 -> "<<  ram.code_segment[i].operand1 << " operand2 -> "<<  ram.code_segment[i].operand2  << std::endl;
-	}
+	CPU cpu(ram.code_segment);
+	std::cout << cpu.IP->opcode;
 
 		return 0;
 }
