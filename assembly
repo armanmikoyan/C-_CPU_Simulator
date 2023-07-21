@@ -1,0 +1,12 @@
+mov ben  0
+mov ayb  10
+mov da   19
+add ben  1
+cmp ben  9
+jl  3
+mov [30]  18
+mov [15]  99
+mov [10]  7
+mov ayb  ben
+mov gim da
+add da ayb
