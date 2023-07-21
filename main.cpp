@@ -40,6 +40,7 @@ class RAM {
 			else if(data[i].size() == 2){			
 				code_segment[i].opcode =data[i][j];
 				code_segment[i].operand1 =data[i][j+1];
+				code_segment[i].operand2 = "null";
 				break;
 			}
 		
@@ -74,6 +75,9 @@ int main(){
 	ram.loadInstruction(data);
 	CPU cpu(ram.code_segment);
 	std::cout << cpu.IP->opcode;
+	for(int i = 0; i < data.size(); ++i){
+		std::cout << ram.code_segment[i].operand2 << std::endl;
+	}
 
 		return 0;
 }
