@@ -20,19 +20,19 @@ write assembly code on  "assembly" file
 
 Each instruction and operand should be separated by whitespace
 
-example
+# example
 
-mov ayb 0
-label l1
-add ayb 1
-cmp ayb 10
-jl l1
+### mov ayb 0
+### label l1
+### add ayb 1
+### cmp ayb 10
+### jl l1
 
-For jump use  " label + label name " 
+## For jump use  " label + label name " 
 
-Example 
+# Example 
 
-label l1
-jmp l1
+### label l1
+### jmp l1
 
 
