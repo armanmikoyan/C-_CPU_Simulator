@@ -1,2 +1,7 @@
-# C-_CPU_Simulator
-assembly interpretator
+# C++_CPU_Simulator  
+# PICSART ACADEMY
+
+
+
+##
+

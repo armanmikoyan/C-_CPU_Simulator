@@ -1,12 +1,22 @@
-mov da  ech
-mov ayb  10
-mov da   19
-add ben  1
-cmp ben  9
-jl  3
-mov [30]  18
-mov [15]  99
-mov [10]  7
-mov ayb  ben
-mov gim da
-add da ayb
+mov [10] 0
+mov [1] 99
+mov [2] 19
+mov da 17
+mov ech [2]
+mov [3] 3
+mov ayb 0
+label l1
+add ayb 1
+cmp ayb 10
+jl l1
+mov ben 21
+mov gim 32
+mov da 92
+mov [10] 56
+mov gim ayb
+add gim 1
+
+
+
+
+
