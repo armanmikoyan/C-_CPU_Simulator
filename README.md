@@ -20,7 +20,7 @@ write assembly code on  "assembly" file
 
 Each instruction and operand should be separated by whitespace
 
-# example
+### Example
 
 ### mov ayb 0
 ### label l1
@@ -30,7 +30,7 @@ Each instruction and operand should be separated by whitespace
 
 ## For jump use  " label + label name " 
 
-# Example 
+### Example 
 
 ### label L1
 ### jmp L1
