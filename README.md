@@ -11,8 +11,8 @@
 
 ## Program Compilation and Execution
 
-1 step build -> g++ main.cpp ram.cpp cpu.cpp file_reader.cpp -o simulator
-2 step run -> ./simulator
+# 1 step build -> g++ main.cpp ram.cpp cpu.cpp file_reader.cpp -o simulator
+## 2 step run -> ./simulator
 
 ## Usage
 
