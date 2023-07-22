@@ -26,13 +26,13 @@ Each instruction and operand should be separated by whitespace
 ### label l1
 ### add ayb 1
 ### cmp ayb 10
-### jl l1
+### jl L1
 
 ## For jump use  " label + label name " 
 
 # Example 
 
-### label l1
-### jmp l1
+### label L1
+### jmp L1
 
 
