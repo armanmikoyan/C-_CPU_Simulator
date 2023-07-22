@@ -22,11 +22,11 @@ Each instruction and operand should be separated by whitespace
 
 ### Example
 
-### mov ayb 0
-### label l1
-### add ayb 1
-### cmp ayb 10
-### jl L1
+mov ayb 0
+label l1
+add ayb 1
+cmp ayb 10
+jl L1
 
 ## For jump use  " label + label name " 
 
